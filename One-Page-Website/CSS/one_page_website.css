@@ -1,0 +1,63 @@
+/*====================================
+TEXT PROPERTIES
+=====================================*/
+body{
+    font-family: Tahoma, sans-serif;
+}
+h1{
+    font-size: 2.7em;
+}
+
+h2, h3, h4, h5, h6{
+    font-size: 2.2em;
+}
+
+p{
+    font-size: 1.6em;
+}
+section, article, li{
+    font-size: 1.3em; 
+}
+
+.submit{
+    font-size: 1.6em;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+/*====================================
+INPUT PROPERTIES
+=====================================*/
+
+.container{
+    width: 50%;
+    height: 400px;
+    margin: 30px auto;
+    background-color: orange;
+    border-radius: 3%;
+    border: 8px groove palegoldenrod;
+}
+
+.contact-form{
+    text-align: center;
+    border-radius: 2%;
+}
+
+.contact-form p{
+    margin: 10px;
+}
+
+.text-field{
+    width: 60%; 
+}
+
+#third-field{
+    padding: 40px 0px;
+}
+.submit{
+    margin-top: 20px;
+    padding: 15px 20px;
+    background: #000;
+    background-color: palegoldenrod;
+    cursor: pointer;
+}

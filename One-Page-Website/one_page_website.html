@@ -3,6 +3,7 @@
 	<head>
 		<title>Beautiful Birds</title>
 		<meta charset="utf-8">
+		<link rel="stylesheet" href="./CSS/one_page_website.css">
 	</head>
 	<body>
 		<!-- NAV -->
@@ -31,9 +32,9 @@
 		<!-- SECTION WITH PICTURES -->
 		<section>
 			<article>
-			This article will be about different birds that you may<br> 
+			This article will discuss different birds that you may<br> 
 			or may not already know about. But one thing is for certain:<br>
-			they are all amazing! Check out pictures of birds below.
+			They are all amazing! Check out pictures of birds below.
 			</article>
 			<!-- PHOTO CONTAINER 1 -->
 			<div>
@@ -78,14 +79,20 @@
 		<!-- END SECTION WITH VIDEOS -->
 		
 		<!-- CONTACT FORM -->
-			<div>
+			<div class="container">
 				<div id="contact">
-					<form>
-						Name: <input type="text" name="Name">
-						Email Address: <input type="text" name="Email">
-						How can we help? <input type="text" name="Help">
-						<input type="submit" value="Submit">
+					<form class="contact-form">
+						<p>Name:</p>
+						<input class="text-field" type="text" name="Name"><br>
+						<p>Email Address:</p>
+						<input class="text-field" type="text" name="Email"><br>
+						<p>How can we help?</p>
+						<input id="third-field" class="text-field" type="text" name="Help"><br>
+						<div>
+							<input class="submit" type="submit" value="Submit">
+						</div>
 					</form>
+					
 				</div>
 			</div>
 		<!-- END CONTACT FORM -->
