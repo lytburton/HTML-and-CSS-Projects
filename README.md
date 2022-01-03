@@ -11,7 +11,7 @@ This is a collection of the HTML and CSS projects I completed while attending Th
 The Space Station site is a one-page website for a fictional space traveling agency.
 The styling was done with CSS, and the site includes a navbar, image gallery, and a form.
 
-![Movie Theater Site](https://github.com/lytburton/HTML-and-CSS-Projects/blob/main/space_station.png?raw=true)
+![Space Station Site](https://github.com/lytburton/HTML-and-CSS-Projects/blob/main/space_station.png?raw=true)
 
 
 ## Movie Theater Site
